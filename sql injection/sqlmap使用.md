@@ -2,7 +2,7 @@
 
 ## 1.post
 
-![sql1](D:\1-政企业务\pics\sql1.png)
+![sql1](github.com/ChristopherWuk/whatisthis/blob/main/pics/sql1.png)
 
 对靶场测试，post的一个注入
 
